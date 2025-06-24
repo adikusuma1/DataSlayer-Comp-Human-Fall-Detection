@@ -33,24 +33,26 @@ Human Fall Detection adalah sistem berbasis visi komputer untuk mengidentifikasi
 ├── submission_duelist_seannamon.csv # Hasil akhir untuk kompetisi
 └── README.md                        # Dokumentasi proyek (file ini)
 
+---
+
 ## ⚙️ Technologies Used
-🐍 Python 3.10.11
-🔶 TensorFlow & Keras (untuk deep learning)
-🔍 Keras Tuner (untuk hyperparameter search)
-📊 Matplotlib, Seaborn (untuk visualisasi)
-📦 OpenCV (untuk pemrosesan gambar)
-📄 Pandas, NumPy (untuk manipulasi data)
+- 🐍 Python 3.10.11
+- 🔶 TensorFlow & Keras (untuk deep learning)
+- 🔍 Keras Tuner (untuk hyperparameter search)
+- 📊 Matplotlib, Seaborn (untuk visualisasi)
+- 📦 OpenCV (untuk pemrosesan gambar)
+- 📄 Pandas, NumPy (untuk manipulasi data)
 
 🧠 Model Architecture
-📚 Base model: ResNet50 pretrained dari ImageNet
-❄️ Layer freezing: hanya melatih top layer
-🧠 Custom classifier head:
-GlobalAveragePooling2D
-Dropout
-Dense (Softmax untuk klasifikasi biner)
+- 📚 Base model: ResNet50 pretrained dari ImageNet
+- ❄️ Layer freezing: hanya melatih top layer
+- 🧠 Custom classifier head:
+- GlobalAveragePooling2D
+- Dropout
+- Dense (Softmax untuk klasifikasi biner)
 
 ⚙️ Optimizations:
-Adaptive learning rate
-Dropout tuning
-Class weight balancing
-EarlyStopping untuk mencegah overfitting
+- Adaptive learning rate
+- Dropout tuning
+- Class weight balancing
+- EarlyStopping untuk mencegah overfitting
